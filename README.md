@@ -87,10 +87,3 @@ The PDF export is in [`dashboard/`](dashboard/BC_Electricity_Load_Dashboard.pdf)
 | `BC_Load_Analysis.xlsx` | Excel workbook: raw data, checks, daily table, pivot table, summary, Excel charts |
 | `dashboard/BC_Electricity_Load_Dashboard.pdf` | Power BI dashboard, exported as PDF |
 | `images/powerbi_dashboard.png` | Screenshot of the Power BI dashboard |
-
-## AI use
-
-I used Claude to help plan the analysis and build the first version of the
-workbook. I built the pivot table, the `XLOOKUP` temperature match and the
-Power BI dashboard myself, and I checked the numbers against each other (for
-example, the pivot table against the `Summary` sheet).
